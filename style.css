@@ -4,22 +4,32 @@
     width: 100%;
     background-color: black;
 }
+#logo_lang{
+    height: 220px;
+    position: relative;
+}
 #netflix_logo{
     height: 50px;
     padding-left: 120px;
     padding-top: 10px;
+    position: absolute;
+}
+#language_signin{
+    display: inline-block;
+    align-tracks: le;
+    position: absolute;
+    right: 0;
 }
 #top_head {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(assets/header-image.png);
     background-color: rgba(0,0,0,0.5);
     height: 700px;
 }
+#lang,#sign{
+    display: inline-block;
+}
 #logo{
     height: 40px;
-}
-#language_signin {
-    display: flex;
-    justify-content: flex-end;
 }
 #select_language{
     padding-right: 10px;
@@ -52,9 +62,6 @@
     border: 10px;
     padding: 5px;
     border-radius: 5px;
-}
-#logo_lang{
-    height: 220px;
 }
 #top_heading{
     font-size: 50px;
