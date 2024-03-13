@@ -118,7 +118,7 @@ input{
 .plans_model{
     color: white;
     width: 200px;
-    height: 220px;
+    height: 260px;
     background-color: rgb(148, 42, 148);
     border-radius: 10px;
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
@@ -133,4 +133,31 @@ input{
 .plans_content{
     padding-left: 25px;
     padding-right: 23px;
+}
+.reasons_div{
+    padding-top: 10px;
+    padding-left: 190px;
+    padding-right: 70px;
+    height: 340px;
+    background-color: rgb(2, 2, 35);
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+}
+#reasons_heading{
+    color: white;
+}
+.reason{
+    color: white;
+    width: 200px;
+    height: 260px;
+    background-color: rgb(16, 16, 57);
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 13px;
+}
+.reason_heading{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
 }
