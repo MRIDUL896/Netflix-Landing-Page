@@ -5,18 +5,17 @@
     background-color: black;
 }
 #logo_lang{
+    display: flex;
+    justify-content: space-between;
     height: 220px;
-    position: relative;
+    width: 100%;
 }
 #netflix_logo{
     height: 50px;
     padding-left: 120px;
     padding-top: 10px;
-    position: absolute;
 }
 #language_signin{
-    display: inline-block;
-    position: absolute;
     right: 0;
 }
 #top_head {
@@ -105,10 +104,11 @@ input{
     font-weight: bold;
 }
 .plans{
+
     padding-top: 10px;
     padding-left: 190px;
     padding-right: 70px;
-    height: 340px;
+    height: auto;
     background-color: rgb(2, 2, 35);
     background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
 }
