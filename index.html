@@ -1,104 +1,203 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets\netflix_icon.png" type="image/png" />
-    <title>Netflix</title>
-  </head>
-  <body class="background">
-    <div id="top_head">
-      <div id="logo_lang">
-        <div id="netflix_logo">
-          <img id="logo" src="assets/logo.png" alt="" />
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets\netflix_icon.png" type="image/png" />
+  <title>Netflix</title>
+</head>
+
+<body class="background">
+  <div id="top_head">
+    <div id="logo_lang">
+      <div id="netflix_logo">
+        <img id="logo" src="assets/logo.png" alt="" />
+      </div>
+      <div id="language_signin">
+        <div id="lang">
+          <select name="Language" id="select_language">
+            <option value="en">English</option>
+            <option value="hi">हिन्दी</option>
+          </select>
         </div>
-        <div id="language_signin">
-          <div id="lang">
-            <select name="Language" id="select_language">
-              <option value="en">English</option>
-              <option value="hi">हिन्दी</option>
-            </select>
-          </div>
-          <div id="sign">
-            <button id="singn_in">Sign In</button>
-          </div>
+        <div id="sign">
+          <button id="sign_in">Sign In</button>
         </div>
       </div>
-      <div class="top_head_content">
-        <h1 id="top_heading">Unlimited movies, TV shows and more</h1>
-        <p id="content1">Watch anywhere. Cancel anytime.</p>
-        <p id="content2">
-          Ready to watch? Enter your email to create or restart your membership.
+    </div>
+    <div class="top_head_content">
+      <h1 id="top_heading">Unlimited movies, TV shows and more</h1>
+      <p id="content1">Watch anywhere. Cancel anytime.</p>
+      <p id="content2">
+        Ready to watch? Enter your email to create or restart your membership.
+      </p>
+      <div class="mail_get_started">
+        <div id="mail_div">
+          <form id="mail" action="email">
+            <input id="email" type="text" placeholder="Email address" />
+          </form>
+        </div>
+        <div id="start_div">
+          <button id="get_started">Get Started ></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="first">
+    <div>
+      <span id="sp1">Enjoy on your TV</span>
+      <span id="sp2">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+    </div>
+    <div class="secImg">
+      <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+      <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" autoplay
+        loop muted></video>
+    </div>
+  </section>
+  <div class="plans">
+    <h3 id="plans_heading">A plan to suit your needs</h3>
+    <div id="plans_cards">
+      <div class="plans_model">
+        <h3 class="plans_model_heading">PREMIUM</h3>
+        <p class="plans_content">
+          A cinematic experience with the best picture and audio quality.
+          <br />
+          <br />
+          <b>₹649/month</b>
         </p>
-        <div class="mail_get_started">
-          <div id="mail_div">
-            <form id="mail" action="email">
-              <input id="email" type="text" placeholder="Email address" />
-            </form>
-          </div>
-          <div id="start_div">
-            <button id="get_started">Get Started ></button>
-          </div>
-        </div>
+      </div>
+      <div class="plans_model">
+        <h3 class="plans_model_heading">STANDARD</h3>
+        <p class="plans_content">
+          All the entertainment you love, in Full HD video quality.
+          <br />
+          <br />
+          <b>
+            <p style="padding-left: 25px">₹499/month</p>
+          </b>
+        </p>
+      </div>
+      <div class="plans_model">
+        <h3 class="plans_model_heading">BASIC</h3>
+        <p class="plans_content">
+          A great way to enjoy all your favourite shows and movies on a
+          budget.
+          <br />
+          <br />
+          <b>₹199/month</b>
+        </p>
+      </div>
+      <div class="plans_model">
+        <h3 class="plans_model_heading">MOBILE</h3>
+        <p class="plans_content">
+          A travel-friendly option for your mobile devices.
+          <br />
+          <br />
+          <b>
+            <p style="padding-left: 25px">₹149/month</p>
+          </b>
+        </p>
       </div>
     </div>
-    <div class="plans">
-      <h3 id="plans_heading">A plan to suit your needs</h3>
-      <div id="plans_cards">
-        <div class="plans_model">
-          <h3 class="plans_model_heading">PREMIUM</h3>
-          <p class="plans_content">
-            A cinematic experience with the best picture and audio quality.
-            <br />
-            <br />
-            <b>₹649/month</b>
-          </p>
-        </div>
-        <div class="plans_model">
-          <h3 class="plans_model_heading">STANDARD</h3>
-          <p class="plans_content">
-            All the entertainment you love, in Full HD video quality.
-            <br />
-            <br />
-            <b><p style="padding-left: 25px">₹499/month</p></b>
-          </p>
-        </div>
-        <div class="plans_model">
-          <h3 class="plans_model_heading">BASIC</h3>
-          <p class="plans_content">
-            A great way to enjoy all your favourite shows and movies on a
-            budget.
-            <br />
-            <br />
-            <b>₹199/month</b>
-          </p>
-        </div>
-        <div class="plans_model">
-          <h3 class="plans_model_heading">MOBILE</h3>
-          <p class="plans_content">
-            A travel-friendly option for your mobile devices.
-            <br />
-            <br />
-            <b><p style="padding-left: 25px">₹149/month</p></b>
-          </p>
-        </div>
+  </div>
+  <div class="reasons_div">
+    <h3 id="reasons_heading">More reasons to join</h3>
+    <div>
+      <div class="reason">
+        <h3 class="reason_heading">Stories tailored to your taste</h3>
+      </div>
+      <div class="reason">
+        <h3 class="reason_heading">Cancel or switch plans anytime</h3>
+      </div>
+      <div class="reason">
+        <h3 class="reason_heading">A place just for kids</h3>
+      </div>
+      <div class="reason">
+        <h3 class="reason_heading">For your phone, tablet, laptop and TV</h3>
       </div>
     </div>
-    <div class="reasons_div">
-      <h3 id="reasons_heading">More reasons to join</h3>
-      <div>
-        <div class="reason">
-          <h3 class="reason_heading">Stories tailored to your taste</h3>
-        </div>
-        <div class="reason">
-          <h3 class="reason_heading">Cancel or switch plans anytime</h3>
-        </div>
-        <div class="reason">
-          <h3 class="reason_heading">A place just for kids</h3>
-        </div>
-        <div class="reason">
-          <h3 class="reason_heading">For your phone, tablet, laptop and TV</h3>
-        </div>
+  </div>
+  <section class="faq">
+    <h2 id="faqH">Frequently Asked Questions</h2>
+    <div class="faqbox">
+      <span id="Q1">What is NetFlix?</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+        <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+    </div>
+    <div class="faqbox">
+      <span id="Q2">How much does Netflix cost?</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+        <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+    </div>
+    <div class="faqbox">
+      <span id="Q3">How do I cancel?</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+        <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+    </div>
+    <div class="faqbox">
+      <span id="Q4">Where can I watch?</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+        <path d="M12 4V20M20 12H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" />
+      </svg>
+
+    </div>
+  </section>
+  <div class="separation"></div>
+
+  <footer>
+    <div class="questions">
+      Questions? Call 000-800-919-1694
+    </div>
+    <div class="footer">
+      <div class="footer-item">
+        <a href="faq">Investor Relations</a>
+        <a href="faq">Jobs</a>
+        <a href="faq">Ways to Watch</a>
+        <a href="faq">Terms of Use</a>
+      </div>
+
+      <div class="footer-item">
+        <a href="faq">Help Centre</a>
+        <a href="faq">Account</a>
+        <a href="faq">Speed Test</a>
+        <a href="faq">Legal Notices</a>
+      </div>
+      <div class="footer-item">
+        <a href="faq">Media Centre</a>
+        <a href="faq">Privacy</a>
+        <a href="faq">Cookie Preferences</a>
+        <a href="faq">Corporate</a>
+      </div>
+
+      <div class="footer-item">
+        <a href="faq">Contact Us</a>
+        <a href="faq">Speed Test</a>
+        <a href="faq">Legal Notices</a>
+        <a href="faq">Only on Netflix</a>
       </div>
     </div>
-  </body>
+  </footer>
+  <div id="overlay"></div>
+  <div id="signinForm">
+    <h2>Sign In</h2>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button id="submitSignin"><b>Sign In</b></button>
+    <h3 style="color: gray; text-align: center;">OR</h3>
+    <button id="signCode"><b>Use a sign_in code</b></button>
+    <h3 style="color: rgb(191, 199, 199); text-align: center;"><a href="">Forgot password?</a></h3>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>

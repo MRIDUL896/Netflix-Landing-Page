@@ -1,48 +1,88 @@
-.background{
+.background {
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
     width: 100%;
     background-color: black;
 }
-#logo_lang{
+
+#logo_lang {
     display: flex;
     justify-content: space-between;
     height: 220px;
     width: 100%;
 }
-#netflix_logo{
+
+#netflix_logo {
     height: 50px;
     padding-left: 120px;
     padding-top: 10px;
 }
-#language_signin{
+
+#language_signin {
     right: 0;
 }
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+
 #top_head {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,1)) ,url(assets/header-image.png);
-    background-color: rgba(0,0,0,0.5);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)),
+        url(assets/header-image.png);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 700px;
 }
-#lang,#sign{
+
+#lang,
+#sign {
     display: inline-block;
 }
-#logo{
+
+#logo {
     height: 40px;
 }
-#select_language{
+
+#select_language {
     padding-right: 10px;
 }
-.top_head_content{
+
+.top_head_content {
     color: white;
     text-align: center;
 }
-#lang{
+
+#lang {
     padding-right: 20px;
 }
-#sign{
-    padding-right: 170px
+
+#sign {
+    padding-right: 170px;
 }
-#select_language{
+
+#select_language {
     height: 35px;
     width: 90px;
     text-align: center;
@@ -51,7 +91,8 @@
     padding: 5px;
     border-radius: 5px;
 }
-#singn_in{
+
+#sign_in {
     height: 33px;
     width: 90px;
     text-align: center;
@@ -60,40 +101,50 @@
     border: 10px;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
-#top_heading{
+
+#top_heading {
     font-size: 50px;
     font-weight: 800;
 }
-#content1{
+
+#content1 {
     font-size: 20px;
 }
-#content2{
+
+#content2 {
     font-size: 20px;
 }
-#mail_div,#start_div{
+
+#mail_div,
+#start_div {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
 }
-#email{
+
+#email {
     color: white;
     background-color: transparent;
     height: 50px;
     width: 350px;
 }
-input::placeholder{
+
+input::placeholder {
     color: white;
     padding: 10px;
 }
-input{
+
+input {
     height: 30px;
     width: 300px;
     border-color: white;
     border-width: 1.5px;
     border-radius: 5px;
 }
-#get_started{
+
+#get_started {
     height: 56px;
     width: 195px;
     font-size: 20px;
@@ -102,62 +153,195 @@ input{
     border-color: red;
     border-radius: 6px;
     font-weight: bold;
+    cursor: pointer;
 }
-.plans{
 
+.plans {
     padding-top: 10px;
     padding-left: 190px;
     padding-right: 70px;
+    padding-bottom: 15px;
     height: auto;
     background-color: rgb(2, 2, 35);
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 }
-#plans_heading{
+
+#plans_heading {
     color: white;
 }
-.plans_model{
+
+.plans_model {
     color: white;
     width: 200px;
     height: 260px;
     background-color: rgb(148, 42, 148);
     border-radius: 10px;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     display: inline-block;
     vertical-align: text-top;
     margin-right: 13px;
 }
-.plans_model_heading{
+
+.plans_model_heading {
     padding-left: 25px;
     padding-top: 25px;
 }
-.plans_content{
+
+.plans_content {
     padding-left: 25px;
     padding-right: 23px;
 }
-.reasons_div{
+
+.reasons_div {
     padding-top: 10px;
     padding-left: 190px;
     padding-right: 70px;
     height: 340px;
     background-color: rgb(2, 2, 35);
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
 }
-#reasons_heading{
+
+#reasons_heading {
     color: white;
 }
-.reason{
+
+.reason {
     color: white;
     width: 200px;
     height: 260px;
     background-color: rgb(16, 16, 57);
     border-radius: 10px;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
     display: inline-block;
     vertical-align: text-top;
     margin-right: 13px;
 }
-.reason_heading{
+
+.reason_heading {
     font-size: 25px;
     padding-left: 25px;
     padding-top: 25px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+#signinForm {
+    display: none;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1001;
+}
+
+#signinForm h2 {
+    color: white;
+}
+
+#signinForm input[type="text"],
+#signinForm input[type="password"] {
+    background-color: black;
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+#submitSignin {
+    width: 85%;
+    margin: 20px;
+    padding: 10px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signCode {
+    background-color: #6a6363;
+    width: 85%;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#signinForm button:hover {
+    background-color: #d40813;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
